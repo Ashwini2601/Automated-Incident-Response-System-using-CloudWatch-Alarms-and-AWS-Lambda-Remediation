@@ -25,6 +25,7 @@ EC2 Instance → CloudWatch Metrics → CloudWatch Alarm → AWS Lambda → EC2 
 <p align="center">
   <img src="images/architecture.png" alt="Architecture Diagram" width="250">
 </p>
+
 ---
 
 ## 🎯 Problem Statement
@@ -32,7 +33,6 @@ EC2 Instance → CloudWatch Metrics → CloudWatch Alarm → AWS Lambda → EC2 
 Production systems may experience high CPU usage leading to performance degradation or downtime. Manual monitoring increases response time and operational effort.
 
 This project automates detection and remediation to solve this issue.
-
 ---
 
 ## 🎯 Objectives
